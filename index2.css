@@ -1,0 +1,112 @@
+body{
+  background-image: url(bg-image.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial;
+}
+
+@keyframes fade-up{
+
+  0%{
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.text1{
+  color:white;
+  font-size: 70px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+ 
+}
+.text2{
+  color:white;
+  font-size: 70px;
+  margin-bottom: 0px;
+
+}
+.text3{
+  color:white;
+  font-size: 70px;
+  margin-bottom: 0px;
+
+}
+.desc-1{
+  margin-top: 0px;
+  font-size: 18px;
+  color:pink;
+  animation: fade-up 7s;
+}
+
+.desc-2{
+  margin-top: 0px;
+  font-size: 18px;
+  color:pink;
+  animation: fade-up 18s;
+}
+
+.ily-text1{
+  animation: fade-up 0.9s;
+  width:400px;
+  transition: 0.4s;
+}
+.ily-text1:hover{
+  background: linear-gradient(135deg, rgb(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 32px rgba(0,0,0,0.37);
+  border-radius: 30px;
+}
+.ily-text2{
+  animation: fade-up 6s;
+  width:400px;
+  transition: 0.4s;
+}
+.ily-text2:hover{
+  background: linear-gradient(135deg, rgb(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 32px rgba(0,0,0,0.37);
+  border-radius: 30px;
+}
+
+.ily-text3{
+  animation: fade-up 2s;
+  width:400px;
+  transition: 0.4s;
+}
+.ily-text3:hover{
+  background: linear-gradient(135deg, rgb(255,255,255,0.1), rgba(255,255,255,0));
+  backdrop-filter: blur(7px);
+  box-shadow: 0 0 32px rgba(0,0,0,0.37);
+  border-radius: 30px;
+}
+
+.button{
+  margin-bottom: 15px;
+  margin-top: 0px;
+  background-color: rgb(0, 68, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color:white;
+  border-radius: 10px;
+  transition: 0.2s;
+  cursor: pointer;
+  animation: fade-up 15s;
+}
+
+.button:hover{
+  letter-spacing: 0.25em;
+  box-shadow: 0 0 35px rgb(0, 68, 255);;
+}
